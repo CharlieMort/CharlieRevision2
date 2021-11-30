@@ -78,6 +78,8 @@ body {
 }
 
 .FlyingButtons {
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: 100%;
   position: relative;
@@ -94,7 +96,7 @@ body {
 }
 
 @keyframes moveX {
-  from { left: 0; } to { left: calc(100% - 30vw); }
+  from { left: 0; } to { left: 84%; }
 }
 
 @keyframes moveY {

@@ -86,6 +86,11 @@ export const Sampling: React.FC = () => {
                     </tr>
                 </table>
             </div>
+            <div>
+                <div>
+                    
+                </div>
+            </div>
         </div>
     )
 }
